@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/moodItemHeight"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/btn_romentic"
+        android:scaleType="fitXY"
+        android:id="@+id/imageCategory"
+        android:padding="8dp"
+        tools:ignore="ContentDescription" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_name"
+        android:textColor="@color/colorMoodText"
+        android:text="Romantic"
+         />
+
+
+</LinearLayout>

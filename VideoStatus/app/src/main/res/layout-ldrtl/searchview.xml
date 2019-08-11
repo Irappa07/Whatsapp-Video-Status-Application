@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/toolBarHeight"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:background="@color/white"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    tools:context=".activity.HomeActivity"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:layout_width="@dimen/toolBarHeight"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:padding="8dp"
+        android:id="@+id/iv_back"
+        android:rotationY="180"
+        android:src="@drawable/ic_arrow_back_black_24dp"
+        tools:ignore="ContentDescription" />
+
+    <EditText
+        android:id="@+id/edt_search_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:inputType="text"
+        android:imeOptions="actionSearch"
+        android:hint="@string/txt_search"
+        android:textAlignment="viewStart"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:lines="1"
+        android:textColorHint="@color/lightGrey"
+        android:textColor="@color/darkGrey"
+        android:textSize="16dp"
+        android:background="@color/transparent"/>
+
+    <ImageView
+        android:id="@+id/iv_clear_text"
+        android:layout_width="@dimen/toolBarHeight"
+        android:layout_height="@dimen/toolBarHeight"
+        android:adjustViewBounds="true"
+        android:padding="12dp"
+        android:visibility="gone"
+        android:src="@drawable/ic_clear_black_24dp"
+        tools:ignore="ContentDescription" />
+
+</LinearLayout>

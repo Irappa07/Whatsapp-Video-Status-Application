@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.DetailActivity"
+    android:background="#EEEDEE">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_centerHorizontal="true"
+    >
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/btn_facebook"
+        android:padding="8dp"
+        android:id="@+id/btn_facebook"
+        tools:ignore="ContentDescription" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/btn_twitter"
+        android:padding="8dp"
+        android:id="@+id/btn_twitter"
+        tools:ignore="ContentDescription" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/messanger"
+        android:padding="8dp"
+        android:id="@+id/btn_messanger"
+        tools:ignore="ContentDescription" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/btn_instagram"
+        android:padding="8dp"
+        android:id="@+id/btn_instagram"
+        tools:ignore="ContentDescription" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/btn_whatsapp"
+        android:padding="8dp"
+        android:id="@+id/btn_whatsapp"
+        tools:ignore="ContentDescription" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/share"
+        android:padding="8dp"
+        android:id="@+id/btn_share"
+        tools:ignore="ContentDescription" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/downloadyes"
+        android:padding="8dp"
+        android:id="@+id/btn_download"
+        tools:ignore="ContentDescription" />
+
+</LinearLayout>
+</RelativeLayout>

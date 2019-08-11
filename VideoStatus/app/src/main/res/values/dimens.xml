@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="navBarItemStart">50dp</dimen>
+    <dimen name="toolBarHeight">50dp</dimen>
+    <dimen name="toolbar_txt_size">20dp</dimen>
+    <dimen name="moodItemHeight">100dp</dimen>
+    <dimen name="toolbarBtnSize">50dp</dimen>
+    <dimen name="textSetting">16dp</dimen>
+    <dimen name="dimen_textheader">15dp</dimen>
+    <dimen name="dimen_textsubheader">12dp</dimen>
+    <dimen name="dimen_views">10dp</dimen>
+    <dimen name="toolbarTitle">16dp</dimen>
+    <dimen name="toolbarMenu">14dp</dimen>
+    <dimen name="downloadertext">16dp</dimen>
+</resources>

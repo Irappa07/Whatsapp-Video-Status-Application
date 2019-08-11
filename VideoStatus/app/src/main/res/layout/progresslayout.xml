@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.DetailActivity"
+    android:id="@+id/rel_showProgress">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/btn_cancelDownload"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:id="@+id/txt_progress"
+        android:layout_marginStart="16dp"
+        android:text="Downloading VideoName"
+        android:textSize="@dimen/downloadertext"
+        android:textColor="@color/darkGrey"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:id="@+id/txt_fileSize"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:text="20.58 MB"
+        android:textSize="@dimen/downloadertext"
+        android:textColor="@color/darkGrey"
+
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBarHorizontal"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_progress"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="20"/>
+    </RelativeLayout>
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/btn_cancelDownload"
+        android:layout_alignParentEnd="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_cancel_black_24dp"
+        android:background="@color/transparent"
+        android:padding="15dp"
+        tools:ignore="ContentDescription" />
+
+</RelativeLayout>

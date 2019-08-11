@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "646037576685",
+    "firebase_url": "https://video-status-5dee1.firebaseio.com",
+    "project_id": "video-status-5dee1",
+    "storage_bucket": "video-status-5dee1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646037576685:android:e4b8aa89cdb20c81",
+        "android_client_info": {
+          "package_name": "com.videostatusiranna"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646037576685-mva2okaf84oms2di7ccmt5837nck9uve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiDngPOTWdR5vcFR2bOXLRXhoxhD0bUp0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646037576685-mva2okaf84oms2di7ccmt5837nck9uve.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="start|center_vertical"
+        android:paddingStart="@dimen/navBarItemStart"
+        android:text="@string/txt_home"
+        android:id="@+id/navItem"
+        android:textAllCaps="true"
+        android:textColor="@color/colorNavText"
+        android:textSize="@dimen/toolbar_txt_size"
+        tools:ignore="RtlSymmetry" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/iv_nav_background"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        android:src="@drawable/btn_selectsidemenu"
+        android:scaleType="fitXY"
+        tools:ignore="ContentDescription" />
+
+</RelativeLayout>

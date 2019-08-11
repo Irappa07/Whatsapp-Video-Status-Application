@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nav_home">الصفحة الرئيسية</string>
+    <string name="nav_popular">جمع</string>
+    <string name="nav_categories">الاقسام</string>
+    <string name="nav_downloaded">تحميلها</string>
+    <string name="nav_setting">ضبط</string>
+    <string name="nav_rate">قيمنا</string>
+    <string name="nav_share">شارك التطبيق</string>
+    <string name="nav_request">طلب الفيديو</string>
+    <string name="txt_search">بحث</string>
+    <string name="whatsapp_warning">WhatsApp غير مثبت في الجهاز</string>
+    <string name="instagram_warning">Instagram غير مثبت في الجهاز</string>
+    <string name="twitter_warning">تويتر غير مثبت في الجهاز</string>
+    <string name="txt_about_us">معلومات عنا</string>
+    <string name="txt_privacy_policy">سياسة الخصوصية</string>
+    <string name="txt_setting">ضبط</string>
+    <string name="txt_categories">الاقسام</string>
+    <string name="txt_views">الآراء</string>
+    <string name="txt_downloads">تحميل</string>
+    <string name="txt_downloaded">تنزيلها</string>
+    <string name="delete_vide_warning">سيؤدي حذف الفيديو إلى حذفه نهائيًا من التخزين أيضًا!</string>
+    <string name="txt_delete">حذف</string>
+    <string name="txt_ok">حسنا</string>
+    <string name="txt_cancel">إلغاء</string>
+    <string name="error_file_extst">الملف غير موجود!</string>
+    <string name="error_no_file">الملف غير موجود في التخزين!</string>
+    <string name="txt_popular">جمع</string>
+    <string name="delete_all">هل تريد حذف جميع مقاطع الفيديو نهائيًا من التخزين؟</string>
+    <string name="txt_no_email_client">لا يوجد عميل بريد إلكتروني موجود</string>
+    <string name="request_rateus">ارجوك قم بتقييمنا</string>
+    <string name="txt_request_video">طلب الفيديو</string>
+    <string name="txt_rate_it">قيمه</string>
+    <string name="txt_rate_part1">شكرا لاستخدام التطبيق. إذا تحب</string>
+    <string name="txt_rate_part2">ارجوك قم بتقييمنا! ملاحظاتك مهمة بالنسبة لنا!</string>
+    <string name="txt_not_now">ليس الان</string>
+    <string name="txt_home">الصفحة الرئيسية</string>
+    <string name="txt_sort_by_old_to_new">Sort من العمر إلى الجديد</string>
+    <string name="txt_clear_download">واضح تحميل</string>
+    <string name="txt_more_apps">تطبيقات أكثر</string>
+    <string name="txt_sort_by_new_to_old">فرز حسب الجديد إلى القديم</string>
+    <string name="txt_no_data_avail">لا تتوافر بيانات!</string>
+    <string name="views">الآراء</string>
+    <string name="app_description">فيديو جديد</string>
+    <string name="error">لا يوجد سجل أكثر وجدت!</string>
+    <string name="installfb">تثبيت تطبيق Facebook للمشاركة!</string>
+    <string name="try_later">حاول لاحقا!</string>
+    <string name="install_insta">هل ترغب في تثبيت Instagram؟</string>
+    <string name="install_twitter">هل ترغب في تثبيت Twitter?</string>
+    <string name="install_messenger">هل ترغب في تثبيت Messenger?</string>
+    <string name="install_facebook">هل ترغب في تثبيت Facebook?</string>
+    <string name="install_whatsapp">هل ترغب في تثبيت Whatsapp?</string>
+    <string name="app_not_found">التطبيق غير موجود</string>
+
+</resources>

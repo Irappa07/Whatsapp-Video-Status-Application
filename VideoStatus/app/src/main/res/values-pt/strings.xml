@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nav_home">Casa</string>
+    <string name="nav_popular">Popular</string>
+    <string name="nav_categories">Categorias</string>
+    <string name="nav_downloaded">"Baixado "</string>
+    <string name="nav_setting">"Configuração "</string>
+    <string name="nav_rate">"Nos avalie "</string>
+    <string name="nav_share">"Compartilhe o aplicativo "</string>
+    <string name="nav_request">"Solicitar vídeo "</string>
+    <string name="txt_search">Pesquisa</string>
+    <string name="whatsapp_warning">WhatsApp não instalado no dispositivo</string>
+    <string name="instagram_warning">Instagram não instalado no dispositivo</string>
+    <string name="twitter_warning">Twitter não instalado no dispositivo</string>
+    <string name="txt_about_us">"Sobre nós "</string>
+    <string name="txt_privacy_policy">Política de Privacidade</string>
+    <string name="txt_setting">CONFIGURAÇÃO</string>
+    <string name="txt_categories">CATEGORIAS</string>
+    <string name="txt_views">Views</string>
+    <string name="txt_downloads">Baixar</string>
+    <string name="txt_downloaded">"DOWNLOADED "</string>
+    <string name="delete_vide_warning">A exclusão do vídeo também seria excluída permanentemente do armazenamento!</string>
+    <string name="txt_delete">Excluir</string>
+    <string name="txt_ok">"Está bem "</string>
+    <string name="txt_cancel">"Cancelar "</string>
+    <string name="error_file_extst">"Arquivo não existe! "</string>
+    <string name="error_no_file">Arquivo não existia no armazenamento!</string>
+    <string name="txt_popular">"POPULAR "</string>
+    <string name="delete_all">Excluir todos os vídeos permanentemente do armazenamento?</string>
+    <string name="txt_no_email_client">"Não existe cliente de email "</string>
+    <string name="request_rateus">Por favor, classifique-nos</string>
+    <string name="txt_request_video">Solicitar vídeo</string>
+    <string name="txt_rate_it">Avalie</string>
+    <string name="txt_rate_part1">Obrigado por usar o aplicativo. Se você gostar</string>
+    <string name="txt_rate_part2">por favor classifique-nos! Seu feedback é importante para nós!</string>
+    <string name="txt_not_now">"Agora não "</string>
+    <string name="txt_home">CASA</string>
+    <string name="txt_sort_by_old_to_new">Ordenar por antigo para novo</string>
+    <string name="txt_clear_download">Limpar Download</string>
+    <string name="txt_more_apps">Mais aplicativos</string>
+    <string name="txt_sort_by_new_to_old">Ordenar por novo para antigo</string>
+    <string name="txt_no_data_avail">Nenhum dado disponível!</string>
+    <string name="views">VISUALIZAÇÕES</string>
+    <string name="app_description">Novos videos</string>
+    <string name="error">Nenhum outro registro encontrado!</string>
+    <string name="installfb">Instale o aplicativo do Facebook para compartilhar!</string>
+    <string name="try_later">Tente depois!</string>
+    <string name="install_insta">Você gostaria de instalar o Instagram?</string>
+    <string name="install_twitter">Você gostaria de instalar o Twitter?</string>
+    <string name="install_messenger">Você gostaria de instalar o Messenger?</string>
+    <string name="install_facebook">Você gostaria de instalar o Facebook?</string>
+    <string name="install_whatsapp">Você gostaria de instalar o Whatsapp?</string>
+    <string name="app_not_found">App não encontrado</string>
+
+</resources>

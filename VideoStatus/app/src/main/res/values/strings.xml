@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name" translatable="false">Status video</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_popular">Popular</string>
+    <string name="nav_categories">Categories</string>
+    <string name="nav_downloaded">Downloaded</string>
+    <string name="nav_setting">Setting</string>
+    <string name="nav_rate">Rate Us</string>
+    <string name="nav_share">Share App</string>
+    <string name="nav_request">Request Video</string>
+
+    <string name="link" translatable="false">http://project.dandelirivercamp.com/</string>
+    <!--<string name="link" translatable="false">http://sixersquare.com/videostatus1/</string>-->
+    <!--<string name="link" translatable="false">http://192.168.1.121/freak/video-status/</string>-->
+    <!--<string name="link" translatable="false">http://www.pollywoodsnapchat.com/punjabistatus/</string>-->
+
+
+
+    <string name="facebook_app_id" translatable="false"></string>
+    <string name="txt_search">Search</string>
+    <string name="authority" translatable="false">com.videostatusiranna.fileProvider</string>
+    <string name="destinationFolderName" translatable="false">/VideoStatus</string>
+    <string name="whatsapp_warning">WhatsApp not installed in the device</string>
+    <string name="instagram_warning">Instagram not installed in the device</string>
+    <string name="twitter_warning">Twitter not installed in the device</string>
+
+    <!--AdMob Integration-->
+
+    <string name="show_admmob_ads" translatable="false">no</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-</string>
+    <string name="interstial_ad_unit_id" translatable="false">ca-app-pub-</string>
+
+    <!--Facebook Admob Integration-->
+    <string name="show_facebook_ads" translatable="false">yes</string>
+    <string name="facebook_interstial" translatable="false"></string>
+    <string name="facebook_banner_id" translatable="false"></string>
+
+
+    <string name="email" translatable="false">irannayadur07@gmail.com</string>
+    <string name="txt_about_us">About Us</string>
+    <string name="txt_privacy_policy">Privacy Policy</string>
+    <string name="txt_setting">SETTING</string>
+    <string name="aboutUs_filename" translatable="false">aboutus.html</string>
+    <string name="txt_categories">CATEGORIES</string>
+    <string name="txt_views">Views</string>
+    <string name="txt_downloads">Download</string>
+    <string name="txt_downloaded">DOWNLOADED</string>
+    <string name="delete_vide_warning">Deleting the video would delete permanently from storage also!</string>
+    <string name="txt_delete">Delete</string>
+    <string name="txt_ok">OK</string>
+    <string name="txt_cancel">Cancel</string>
+    <string name="error_file_extst">File doesn\'t exists!</string>
+    <string name="error_no_file">File didn\'t existed in storage!</string>
+    <string name="txt_popular">POPULAR</string>
+    <string name="playStore_address" translatable="false">https://play.google.com/store/apps/details?id=</string>
+    <string name="delete_all">Delete all videos permanently from storage?</string>
+    <string name="txt_no_email_client">There is no email client exists</string>
+    <string name="request_rateus">Please Rate Us</string>
+    <string name="txt_request_video">Request Video</string>
+    <string name="txt_rate_it">Rate it</string>
+    <string name="txt_rate_part1">Thanks for using the application. If you like</string>
+    <string name="txt_rate_part2">please rate us! Your feedback is important for us!</string>
+    <string name="txt_not_now">Not now</string>
+    <string name="txt_home">HOME</string>
+    <string name="txt_sort_by_old_to_new">Sort by old to new</string>
+    <string name="txt_clear_download">Clear Download</string>
+    <string name="txt_more_apps">More Apps</string>
+    <string name="txt_sort_by_new_to_old">Sort by new to old</string>
+    <string name="txt_no_data_avail">No Data Available!</string>
+
+    <!-- CELL BOTTOM -->
+
+    <string name="views">VIEWS</string>
+    <string name="app_description">New Videos</string>
+    <string name="error">No more record found!</string>
+    <string name="installfb">Install Facebook App To Share!</string>
+    <string name="try_later">Try Later!</string>
+    <string name="install_insta">Would you like to install Instagram?</string>
+    <string name="install_twitter">Would you like to install Twitter?</string>
+    <string name="install_messenger">Would you like to install Messenger?</string>
+    <string name="install_facebook">Would you like to install Facebook?</string>
+    <string name="install_whatsapp">Would you like to install Whatsapp?</string>
+    <string name="app_not_found">App Not Found</string>
+    <string name="noInternet" translatable="false">Please Check Your Internet Connection!</string>
+    <string name="info" translatable="false">Info</string>
+
+
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DetailActivity">
+
+    <RelativeLayout
+        android:id="@+id/rel_videoView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+
+        <RelativeLayout
+            android:id="@+id/rel_video"
+            android:layout_width="match_parent"
+            android:layout_height="230dp">
+
+            <com.videostatusiranna.utilities.JZVideoPlayerNew
+                android:id="@+id/videoPlayer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true"
+                />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_video_title"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_below="@+id/rel_video"
+            android:layout_marginTop="10dp"
+            android:text="Light noble peter"
+            android:paddingStart="10dp"
+            android:layout_marginEnd="80dp"
+            android:paddingEnd="0dp"
+            android:textColor="@color/darkGrey"
+            android:textSize="@dimen/dimen_textheader" />
+
+        <TextView
+            android:id="@+id/tv_video_subcat"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_below="@+id/tv_video_title"
+            android:paddingStart="10dp"
+            android:layout_marginTop="5dp"
+            android:paddingEnd="0dp"
+            android:text="English -Love Romantic"
+            android:textColor="@color/lightGrey"
+            android:textSize="@dimen/dimen_textsubheader" />
+
+        <TextView
+            android:id="@+id/tv_num_views"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:paddingEnd="10dp"
+            android:paddingStart="0dp"
+            android:layout_alignTop="@+id/tv_video_title"
+            android:layout_below="@+id/rel_video"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="16K Views"
+            android:textColor="@color/lightGrey"
+            android:textSize="@dimen/dimen_textsubheader" />
+
+        <TextView
+            android:id="@+id/tv_downloads"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:paddingEnd="10dp"
+            android:paddingStart="0dp"
+            android:layout_below="@+id/tv_num_views"
+            android:text="120 Download"
+            android:textColor="@color/lightGrey"
+            android:textSize="@dimen/dimen_textsubheader" />
+
+    </RelativeLayout>
+
+    <include
+        layout="@layout/detail_toolbar"
+        android:layout_width="match_parent"
+        android:id="@+id/detail_toolbar"
+        android:layout_height="60dp"
+        android:layout_below="@+id/rel_videoView" />
+
+<include
+    layout="@layout/progresslayout"
+    android:id="@+id/rel_showProgress"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+    android:layout_below="@+id/rel_videoView"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/detail_toolbar"
+        android:layout_height="fill_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_extraVideo"
+            />
+        <ProgressBar
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/progressBar"
+
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

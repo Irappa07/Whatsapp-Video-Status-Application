@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nav_home">"Casa "</string>
+    <string name="nav_popular">"Popular "</string>
+    <string name="nav_categories">"Categorías "</string>
+    <string name="nav_downloaded">Descargado</string>
+    <string name="nav_setting">Ajuste</string>
+    <string name="nav_rate">"Nos califica "</string>
+    <string name="nav_share">Compartir aplicación</string>
+    <string name="nav_request">"Solicitar video "</string>
+    <string name="txt_search">Buscar</string>
+    <string name="whatsapp_warning">"WhatsApp no ​​está instalado en el dispositivo "</string>
+    <string name="instagram_warning">"Instagram no instalado en el dispositivo "</string>
+    <string name="twitter_warning">"Twitter no está instalado en el dispositivo "</string>
+    <string name="txt_about_us">"Sobre nosotros "</string>
+    <string name="txt_privacy_policy">"Política de privacidad "</string>
+    <string name="txt_setting">AJUSTE</string>
+    <string name="txt_categories">CATEGORÍAS</string>
+    <string name="txt_views">Ver</string>
+    <string name="txt_downloads">Descargar</string>
+    <string name="txt_downloaded">DESCARGADO</string>
+    <string name="delete_vide_warning">"¡Eliminar el video también se eliminaría permanentemente del almacenamiento! "</string>
+    <string name="txt_delete">Borrar</string>
+    <string name="txt_ok">"DE ACUERDO "</string>
+    <string name="txt_cancel">Cancelar</string>
+    <string name="error_file_extst">"¡El archivo no existe! "</string>
+    <string name="error_no_file">"¡El archivo no existió en el almacenamiento! "</string>
+    <string name="txt_popular">POPULAR</string>
+    <string name="delete_all">"¿Eliminar todos los videos permanentemente del almacenamiento? "</string>
+    <string name="request_rateus">"Por favor califícanos "</string>
+    <string name="txt_no_email_client">"No existe un cliente de correo electrónico "</string>
+    <string name="txt_request_video">"Solicitar video "</string>
+    <string name="txt_rate_it">Puntúalo</string>
+    <string name="txt_rate_part1">Gracias por usar la aplicación. Si te gusta</string>
+    <string name="txt_rate_part2">"por favor califícanos! ¡Tus comentarios son importantes para nosotros! "</string>
+    <string name="txt_not_now">"Ahora "</string>
+    <string name="txt_home">CASA</string>
+    <string name="txt_sort_by_old_to_new">"Ordenar por viejo a nuevo "</string>
+    <string name="txt_clear_download">"Borrar Descargar "</string>
+    <string name="txt_more_apps">"Más aplicaciones "</string>
+    <string name="txt_sort_by_new_to_old">"Ordenar por nuevo a viejo "</string>
+    <string name="txt_no_data_avail">¡Datos no disponibles!</string>
+    <string name="views">PUNTOS DE VISTA</string>
+    <string name="app_description">Nuevos vídeos</string>
+    <string name="error">No más registros encontrados!</string>
+    <string name="installfb">Instalar la aplicación de Facebook para compartir!</string>
+    <string name="try_later">¡Intenta más tarde!</string>
+    <string name="install_insta">¿Te gustaría instalar Instagram?</string>
+    <string name="install_twitter">¿Te gustaría instalar Twitter?</string>
+    <string name="install_messenger">¿Te gustaría instalar Messenger?</string>
+    <string name="install_facebook">¿Te gustaría instalar Facebook?</string>
+    <string name="install_whatsapp">¿Te gustaría instalar Whatsapp?</string>
+    <string name="app_not_found">Aplicación no encontrada</string>
+
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="2dp"
+        android:id="@+id/cardView">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:paddingStart="10dp">
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="2dp">
+            <ImageView
+                android:id="@+id/iv_video"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/tempimage"
+                tools:ignore="ContentDescription" />
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/tv_video_title"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_below="@+id/cardView1"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/dimen_textheader"
+                android:text="Light noble peter"
+                android:textColor="@color/darkGrey"
+                />
+
+            <TextView
+                android:id="@+id/tv_video_subcat"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_below="@+id/tv_video_title"
+                android:layout_marginTop="5dp"
+                android:textSize="@dimen/dimen_textsubheader"
+                android:text="English -Love Romantic"
+                android:textColor="@color/lightGrey" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/tv_video_title"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_num_views"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/dimen_textheader"
+                    android:includeFontPadding="false"
+                    android:gravity="center"
+                    android:text="16K"
+                    android:textColor="@color/darkGrey" />
+
+                <TextView
+                    android:id="@+id/tv_views"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:textSize="@dimen/dimen_views"
+                    android:text="@string/views"
+                    android:textStyle="bold"
+                    android:textColor="@color/lightGrey" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+    <ImageView
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/cardView"
+        android:src="@color/colorDivider"
+        tools:ignore="ContentDescription" />
+</RelativeLayout>

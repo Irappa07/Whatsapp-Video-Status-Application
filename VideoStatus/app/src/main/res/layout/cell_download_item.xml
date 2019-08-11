@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="2dp"
+        android:id="@+id/cardView"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingEnd="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:paddingStart="8dp">
+
+            <ImageView
+                android:id="@+id/iv_video"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/tempimage"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/tv_video_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_video"
+                android:layout_marginTop="8dp"
+                android:textSize="18dp"
+                android:text="Light noble peter"
+                android:textColor="@color/darkGrey"
+                />
+            <TextView
+                android:id="@+id/tv_video_subcat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_video_title"
+                android:layout_marginTop="5dp"
+                android:textSize="16dp"
+                android:text="English -Love Romantic"
+                android:textColor="@color/lightGrey"
+                />
+
+            <ImageView
+                android:id="@+id/iv_delete"
+                android:layout_width="50dp"
+                android:padding="5dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_cancel_black_24dp"
+                android:layout_below="@+id/iv_video"
+                android:layout_alignTop="@+id/tv_video_title"
+                android:layout_alignParentEnd="true"
+                android:gravity="center"
+                tools:ignore="ContentDescription" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+    <ImageView
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/cardView"
+        android:src="@color/colorDivider"
+        tools:ignore="ContentDescription" />
+</RelativeLayout>
